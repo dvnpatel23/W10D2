@@ -1,0 +1,47 @@
+.clock {
+  font-family: cursive;
+  color: darkred;
+  font-size: 25px;
+  background-color: lightblue;
+  width: 600px;
+
+}
+
+#root {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs ul li {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: darkblue;
+  display: flex;
+  display: inline-block;
+  padding: 30px; 
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 50px 20px 50px 50px;
+
+}
+
+.tabs ul li :hover {
+  background-color: yellow;
+}
+
+.tabs ul {
+  background-color: yellowgreen;
+  border-radius: 20px; 
+
+}
+
+.content {
+  font-size: 80px;
+  color: white;
+  background-color: black;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
